@@ -1,0 +1,65 @@
+P,li{
+    justify-content:center;
+    display: flex;
+    font-size: 30px;
+}
+#Titulo{
+    justify-content:center;
+    display: flex;
+    font-size: 80px;
+    font-weight: bolder;
+    margin: 0px;
+}
+h2{
+    justify-content:center;
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+}
+.Formulario{
+    justify-self: flex-start;
+    font-size: 40px;
+}
+form input,form label{
+    font-size: 25px;
+}
+form input:hover{
+    background-color: antiquewhite;
+}
+body{
+    background-color: azure;
+    margin: 0px;
+}
+.Cabeçalho{
+    background-color: rgb(163, 255, 255);
+}
+.foto{
+    display: flex;
+    justify-self:center;
+    width: auto;
+    height: 300px;
+}
+.borda{
+    border-width: 5px;
+    border-color: rgb(163, 255, 255);
+    border-style: groove;
+}
+hr{
+    height: 3px;
+    width:auto;
+    background-color: rgb(100, 255, 255);
+}
+.News{
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+}
+input:hover[requerido]{
+    background-color: rgb(255, 206, 206);
+    border-color: red;
+    border-width: 1px;
+}
+.galeria{
+    margin-top: 0px;
+    justify-self: flex-start;
+}

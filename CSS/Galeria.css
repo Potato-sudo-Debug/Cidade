@@ -1,0 +1,58 @@
+h1{
+    font-size: 80px;
+    font-weight: bolder;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    justify-self: center;
+    align-self: center;
+}
+figcaption{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(163, 255, 255);
+}
+.Titulo{
+    justify-content:center;
+    display: flex;
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.Cabeçalho{
+    background-color: rgb(163, 255, 255);
+}
+body{
+    background-color: azure;
+    margin: 0px;
+    border: 30px solid rgb(163, 255, 255);
+}
+.borda{
+    border-width: 5px;
+    border-color: rgb(163, 255, 255);
+    border-style: groove;
+    height: 350px;
+    width: auto;
+}
+.painel{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+figcaption{
+    flex-direction: flex;
+    justify-content: center;
+    align-self: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(209, 87, 87);
+}
